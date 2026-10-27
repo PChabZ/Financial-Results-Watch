@@ -9,6 +9,7 @@ et génère une alerte "à vérifier" (page cassée, refonte, blocage).
 import argparse
 import hashlib
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -82,10 +83,11 @@ def extract_links(html, base_url, include, exclude=None, scope=None):
     return out
 
 
-def make_item(site, title, body_html, link, ts):
+def make_item(site, title, body_html, link, ts, kind="info", links=None):
     guid = hashlib.sha1(f"{site['slug']}|{title}|{ts.isoformat()}".encode()).hexdigest()
-    return {"guid": guid, "slug": site["slug"], "site": site["name"], "title": title,
-            "link": link, "body": body_html, "date": ts.isoformat()}
+    return {"guid": guid, "slug": site["slug"], "site": site["name"], "title": title, "kind": kind,
+            "link": link, "body": body_html, "date": ts.isoformat(), "links": links or [],
+            "page": site["url"]}
 
 
 def check_site(site, state, ts, fetcher=fetch):
@@ -107,7 +109,7 @@ def check_site(site, state, ts, fetcher=fetch):
             s["healthy"] = False
             return [make_item(site, f"⚠️ {site['name']} : page à vérifier",
                               f"<p>Le relevé a échoué ({escape(error)}). L'historique est conservé ; "
-                              f"le suivi reprendra automatiquement.</p>", site["url"], ts)]
+                              f"le suivi reprendra automatiquement.</p>", site["url"], ts, kind="alert")]
         return []
 
     items = []
@@ -133,7 +135,8 @@ def check_site(site, state, ts, fetcher=fetch):
         title = f"{site['name']} : {first_label}" if len(new) == 1 else f"{site['name']} : {len(new)} nouveaux documents — {first_label}"
         note = "<p><em>Volume inhabituel : possible refonte de la page.</em></p>" if len(new) > 25 else ""
         items.append(make_item(site, title, f"{note}<ul>{lis}</ul><p>Page : <a href=\"{escape(site['url'])}\">{escape(site['url'])}</a></p>",
-                               next(iter(new)) if len(new) == 1 else site["url"], ts))
+                               next(iter(new)) if len(new) == 1 else site["url"], ts,
+                               kind="publication", links=list(new.items())))
     else:
         print(f"[{slug}] rien de nouveau ({len(links)} documents)")
     return items
@@ -156,13 +159,44 @@ def render_rss(items, title, link, path):
     path.write_text(xml, encoding="utf-8")
 
 
+def notify_issues(items, repo, token, post=None):
+    """Crée une issue GitHub par publication / alerte : GitHub l'envoie par e-mail aux abonnés du dépôt."""
+    post = post or (lambda url, payload: requests.post(url, json=payload, timeout=30, headers={
+        "Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}).raise_for_status())
+    sent = 0
+    for it in items:
+        if it.get("kind") not in ("publication", "alert"):
+            continue
+        if it["kind"] == "publication":
+            lines = [f"- [{label}]({url})" for url, label in it["links"]]
+            body = "\n".join(["**Nouveaux documents détectés :**", "", *lines, "",
+                              f"Page source : {it['page']}"])
+        else:
+            body = (f"La page n'a pas pu être lue lors du dernier passage.\n\n"
+                    f"Page : {it['page']}\n\nL'historique est conservé ; le suivi reprendra automatiquement.")
+        try:
+            post(f"https://api.github.com/repos/{repo}/issues", {"title": it["title"][:250], "body": body})
+            sent += 1
+        except Exception as e:
+            print(f"[notif] échec de création de la fiche « {it['title']} » : {e}")
+    return sent
+
+
 def main(argv=None):
     p = argparse.ArgumentParser()
     p.add_argument("--config", default=ROOT / "sites.yaml", type=Path)
     p.add_argument("--state", default=ROOT / "state", type=Path)
     p.add_argument("--out", default=ROOT / "docs", type=Path)
     p.add_argument("--only", help="slug d'un seul site (test)")
+    p.add_argument("--test-notif", action="store_true", help="envoie une fiche d'essai et s'arrête")
     args = p.parse_args(argv)
+    if args.test_notif:
+        repo, token = os.environ.get("GITHUB_REPOSITORY"), os.environ.get("GITHUB_TOKEN")
+        demo = {"slug": "test", "name": "IR Watch", "url": "https://github.com/" + (repo or "")}
+        it = make_item(demo, "🧪 IR Watch : fiche d'essai — tu peux la fermer", "", demo["url"], now(),
+                       kind="publication", links=[(demo["url"], "Lien de test")])
+        print(f"[notif] {notify_issues([it], repo, token)} fiche d'essai créée")
+        return 0
 
     sites = yaml.safe_load(args.config.read_text(encoding="utf-8"))["sites"]
     if args.only:
@@ -183,6 +217,9 @@ def main(argv=None):
     for site in yaml.safe_load(args.config.read_text(encoding="utf-8"))["sites"]:
         render_rss([i for i in history if i["slug"] == site["slug"]], f"IR Watch — {site['name']}",
                    site["url"], args.out / f"{site['slug']}.xml")
+    repo, token = os.environ.get("GITHUB_REPOSITORY"), os.environ.get("GITHUB_TOKEN")
+    if repo and token and new_items:
+        print(f"[notif] {notify_issues(new_items, repo, token)} fiche(s) GitHub créée(s)")
     print(f"{len(new_items)} item(s) publiés ce passage.")
     return 0
 

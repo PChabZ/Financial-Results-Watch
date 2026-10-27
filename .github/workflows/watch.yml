@@ -6,10 +6,16 @@ on:
     # Couvre les publications avant ouverture et après clôture.
     - cron: "10 6 * * 1-5"
     - cron: "40 16 * * 1-5"
-  workflow_dispatch: {}   # bouton "Run workflow" pour lancer à la main
+  workflow_dispatch:
+    inputs:
+      test_notif:
+        description: "Envoyer seulement une fiche d'essai (test de l'e-mail)"
+        type: boolean
+        default: false   # bouton "Run workflow" pour lancer à la main
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: ir-watch
@@ -25,7 +31,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python watch.py
+      - run: python watch.py ${{ inputs.test_notif && '--test-notif' || '' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Enregistrer l'état et les flux
         run: |
           git config user.name "ir-watch-bot"

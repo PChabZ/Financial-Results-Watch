@@ -63,3 +63,13 @@ def test_rss_is_valid_xml(tmp_path):
     watch.render_rss(items, "t", "https://x", out)
     root = ET.parse(out).getroot()
     assert root.find("channel/item/title").text.startswith("Rexel")
+
+
+def test_issue_notifications_only_for_publications_and_alerts():
+    state, sent = {}, []
+    watch.check_site(SITE, state, TS, fetcher=lambda u: REXEL_V1)
+    items = watch.check_site(SITE, state, TS, fetcher=lambda u: REXEL_V2)
+    items.append(watch.make_item(SITE, "✅ Rexel : suivi rétabli", "", SITE["url"], TS))  # info : pas d'e-mail
+    n = watch.notify_issues(items, "o/r", "t", post=lambda url, payload: sent.append((url, payload)))
+    assert n == 1 and sent[0][0] == "https://api.github.com/repos/o/r/issues"
+    assert "[Communiqué de presse – Ventes du T3 2026](https://www.rexel.com/app/uploads/2026/09/CP-Ventes-du-T3-2026.pdf)" in sent[0][1]["body"]
