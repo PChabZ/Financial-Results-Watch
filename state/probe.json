@@ -177,13 +177,13 @@
   "len": 440,
   "n_href": 0,
   "sample_href": [],
-  "head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;se&#46;com&#47;ww&#47;fr&#47;about&#45;us&#47;newsroom&#47;news&#47;press&#45;releases&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;e918d017&#46;1793104283&#46;130a724b\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;e918d017&#46;1793104283&#46;130a724b</P>\n</BODY>\n</HTML>\n"
+  "head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;se&#46;com&#47;ww&#47;fr&#47;about&#45;us&#47;newsroom&#47;news&#47;press&#45;releases&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;2851db17&#46;1793104329&#46;1a476f7a\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;2851db17&#46;1793104329&#46;1a476f7a</P>\n</BODY>\n</HTML>\n"
  },
  "bouygues_cp": {
   "status": 403,
-  "len": 404,
+  "len": 400,
   "n_href": 0,
   "sample_href": [],
-  "head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;bouygues&#46;com&#47;communiques&#45;de&#45;presse&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;47192117&#46;1793104283&#46;35505bc1\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;47192117&#46;1793104283&#46;35505bc1</P>\n</BODY>\n</HTML>\n"
+  "head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;bouygues&#46;com&#47;communiques&#45;de&#45;presse&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;482cc717&#46;1793104330&#46;cfaee4\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;482cc717&#46;1793104330&#46;cfaee4</P>\n</BODY>\n</HTML>\n"
  }
 }
