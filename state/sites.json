@@ -1,9 +1,543 @@
 {
  "bilfinger": {
-  "baseline_done": false,
-  "healthy": false,
-  "last_error": "SSLError: HTTPSConnectionPool(host='www.bilfinger.com', port=443): Max retries exceeded with url: /en/investors/publications/quarterly-reporting/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL:",
-  "seen": {}
+  "baseline_done": true,
+  "count": 133,
+  "healthy": true,
+  "last_ok": "2026-10-27T12:14:43.488392+00:00",
+  "seen": {
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Hauptversammlung/2024/EN/02_GB_2023_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger Annual Report 2023 [Printversion] [pdf, 3.2 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/KonferenzenRoadshows/2018/Q1_2018_Quarterly_Statement_final_en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q1 2018 [pdf, 1.0 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/KonferenzenRoadshows/2018/Q4_2017_Quarterly_Statement_final.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Presentation [pdf, 1.9 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/GB_2023_e_-_Screen.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger Annual Report 2023 [Screen] [pdf, 4.0 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2016/2016_GB_e_Anteilsbesitz_170314.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "List of subsidiaries and equity interests [pdf, 37.7 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2016/2016_GB_e_Print_170314_a.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Annual Report 2016 [Print Version] [pdf, 1,017.7 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2016/2016_GB_e_Screen_170314_a.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Annual Report 2016 [pdf, 1.6 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2016/2016_Geschaeftsbericht_SE.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger SE Annual Financial Statements 2016 [in German] [pdf, 1.6 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2016/Preliminary_Fig_2016_IR_Charts_final.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Presentation [pdf, 1.1 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2016/Q1_2016_Analystencharts_final.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Presentation [PDF] [pdf, 940.6 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2016/Q2_2016_Analystencharts_final.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Presentation [PDF] [pdf, 1.0 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2016/Q3_2016_Analystencharts_final_final.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Presentation [pdf, 1.1 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2016/ZB_Q1-2016_e.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Report [PDF] [pdf, 283.7 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2016/ZB_Q2-2016_e.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Report [PDF] [pdf, 542.3 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2016/ZB_Q3-2016_e.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Report [pdf, 709.4 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2017/FY_2017/2018-02-14-Press_release.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Presse Release [pdf, 72.1 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2017/Q1_2017_Quartely_Statement.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q1 [pdf, 1.5 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2017/Q2_2017/2017_H1_e_Zwischenbericht.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Half Year Financial Report [pdf, 225.8 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2017/Q2_2017/Q2_2017_Quartely_Statement.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q2 [pdf, 1.5 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2017/Q3_2017/Q3_2017_Quarterly_Statement_final_en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q3 [pdf, 1.4 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Annual_Report_2017.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Annual Report 2017 [pdf, 3.3 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Annual_Report_2018.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Annual Report 2018 [pdf, 3.3 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Bilfinger_2017_GB_e_Anteilsbesitz.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "List of subsidiaries and equity interests [pdf, 41.5 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Bilfinger_2017_GB_e_print.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Annual Report 2017 [Print Version] [pdf, 2.2 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Bilfinger_2018_GB_e_Anteilsbesitz.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "List of subsidiaries and equity interests [pdf, 40.5 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Bilfinger_2018_GB_e_print.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Annual Report 2018 [Print Version] [pdf, 2.1 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Bilfinger_SE_Jahresabschluss_2018.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger SE Annual Financial Statements 2018 [in German] [pdf, 7.9 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Jahresfinanzbericht_SE_2017.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger SE Annual Financial Statements 2017 [in German] [pdf, 5.8 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/New_segment_structure_-_RestatedQuarterlyReporting_FY2018.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Restated new segment structure [PDF] [pdf, 405.4 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/New_segment_structure_-_RestatedQuarterlyReporting_FY2018.xls": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Restated new segment structure [Excel] [xls, 76.5 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Q2_2018/IR_June30_2018_e.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Half Year Financial Report [pdf, 1.3 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Q2_2018/Q2-2018-Bilfinger-Quarterly-Statement.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q2 [pdf, 1.9 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Q3_2018/Bilfinger_Quarterly_Statement_Q3_2018.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Q3 Quarterly Statement [pdf, 1.4 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Q4_2018/2019-02-14-Press_release.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 573.8 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2018/Q4_2018/Bilfinger_Quarterly_Statement_Q4_2018.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Presentation [pdf, 1.5 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2019/Annual_Report_2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Annual Report 2019 [pdf, 3.9 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2019/Bilfinger_2019_GB_e_Anteilsbesitz_01.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "List of subsidiaries and equity interests [pdf, 37.5 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2019/Bilfinger_2019_GB_e_print.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Annual Report 2019 [Print Version] [pdf, 2.7 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2019/Bilfinger_Jahresabschluss_2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger SE Annual Financial Statements 2019 [in German] [pdf, 1.4 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2019/Q1/Bilfinger_Quarterly_Statement_Q1_2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q1 2019 [pdf, 1.5 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2019/Q2/Bilfinger_Half_Year_Financial_Report_2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Half Year Financial Report [pdf, 706.8 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2019/Q2/Bilfinger_Quarterly_Statement_Q2_2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q2 2019 [pdf, 1.8 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2019/Q3/Bilfinger_Quarterly_Statement_Q3_2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q3 2019 [pdf, 1.7 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2019/Q4/Bilfinger_Quarterly_Statement_Q4_2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q4 / Preliminary Figures FY 2019 [pdf, 1.5 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2019/RestatedQuarterlyReporting_FY2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Restated new segment structure [PDF] [pdf, 417.3 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2019/RestatedQuarterlyReporting_FY2019.xlsx": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Restated new segment structure [Excel] [xlsx, 32.7 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2020/2020_GB_e_screen.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger Annual Report 2020 [Screen] [pdf, 4.7 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2020/Annual_Report_2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger Annual Report 2020 [Printversion] [pdf, 3.3 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2020/Bilfinger_SE_Annual_Financial_Statements_2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger SE Annual Financial Statements 2020 [pdf, 1.7 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2020/Q1/Bilfinger_Quarterly_Statement_Q1_2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q1 2020 [pdf, 1.3 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2020/Q2/Bilfinger_Half_Year_Financial_Report_2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Half-Year Financial Report [pdf, 481.1 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2020/Q2/Bilfinger_Quarterly_Statement_Q2_2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q2 2020 [pdf, 3.6 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2020/Q3/Bilfinger_Quarterly_Statement_Q3_2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q3 [pdf, 1.2 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2020/Q4/Bilfinger_Quarterly_Statement_Q4_2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q4 / Preliminary Figures FY 2020 [pdf, 1.4 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2021/Q1/Bilfinger_Quarterly_Statement_Q1_2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q1 2021 [pdf, 2.2 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2021/Q1/PN11052021-Q1-EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 557.3 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2021/Q2/Bilfinger_Half_Year_Financial_Report_2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Half-Year Financial Report [pdf, 1.7 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2021/Q2/Bilfinger_Quarterly_Statement_Q2_2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q2 2021 [pdf, 1.8 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2021/Q2/PM_Q2_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 370.1 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2021/Q3/Bilfinger_Quarterly_Statement_Q3_2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q3 2021 [pdf, 2.1 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2021/Q3/PM_2021-11-11-Q3-EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 376.3 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2021/Q4/Bilfinger_Quarterly_Statement_Q4_2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q4 2021 [pdf, 1.3 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2021/Q4/PN10022022-Q4-EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 397.1 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2022/Q1/Bilfinger_Quarterly_Statement_Q1_2022.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q1 2022 [pdf, 1.6 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2022/Q1/PN_11052022_Q1_2022_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 352.3 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2022/Q2/2022-08-11_Investor_Relations_News_Bilfinger_Q2_2022_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 389.4 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2022/Q2/Bilfinger_H1_2022_e.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Half-Year Financial Report [pdf, 1.5 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2022/Q2/Bilfinger_Quarterly_Statement_Q2_2022.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q2 2022 [pdf, 1.7 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2022/Q3/PM_2022-11-08-Q3-EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 380.0 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2022/Q4/Bilfinger_Quarterly_Statement_Q4_2022.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q4 / Preliminary Figures FY 2022 [pdf, 2.1 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2022/Q4/PN14022023_Q4_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 396.0 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2023/Q1/Bilfinger_Quarterly_Statement_Q1_2023.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q1 2023 [pdf, 2.1 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2023/Q1/PN11052023_Q1_2023_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 382.0 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2023/Q2/Bilfinger_Half_Year_Financial_Report_2023.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Half-Year Financial Report [pdf, 572.5 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2023/Q2/Bilfinger_Quarterly_Statement_Q2_2023.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q2 2023 [pdf, 2.5 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2023/Q2/PN14082023_Q2_2023_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 374.3 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2023/Q3/Bilfinger_Quarterly_Statement_Q3_2023.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q3 [pdf, 1.6 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2023/Q3/PN13112023_Q3_2023_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 191.5 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2023/Q4/Bilfinger_Quarterly_Statement_Q4_2023.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q4 / Preliminary Figures FY 2022 [pdf, 1.4 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2023/Q4/PN_14022024_Q4_2023_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 192.2 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2024/Q1/Bilfinger_Quarterly_Statement_Q1_2024.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q1 2024 [pdf, 1.4 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2024/Q1/PN15052024_Q1_2024_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 193.3 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2024/Q2/Bilfinger_Half_Year_Financial_Report_2024.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Half-Year Financial Report [pdf, 602.7 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2024/Q2/Bilfinger_Quarterly_Statement_Q2_2024.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q2 2024 [pdf, 1.3 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2024/Q2/PN13082024_Q2_2024_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 229.0 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2024/Q3/2024-11-14_PM_Q3_2024_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 205.7 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2024/Q3/Bilfinger_Quarterly_Statement_Q3_2024.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q3 2024 [pdf, 1.6 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2024/Q4/2025-03-04_PM_Q4_2024_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 206.9 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2024/Q4/250318-01_GB24_e_gesamt.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger Annual Report 2024 [Printversion] [pdf, 3.5 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2024/Q4/250513-01_-_GB_2024_e_-_Screen_verlinkt.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger Annual Report 2024 [Screen] [pdf, 4.8 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2024/Q4/Bilfinger_Quarterly_Statement_Q4_2024.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q4 / FY 2024 [pdf, 1.5 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q1/2025-05-14_PM_Q1_2025_V7_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 189.6 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q1/Bilfinger_Quarterly_Statement_Q1_2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q1 [pdf, 1.6 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q1/Bilfinger_Reporting_Factsheet_Q1_2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Reporting Factsheet [pdf, 238.1 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q1/Bilfinger_Reporting_Factsheet_Q1_2025.xlsx": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Reporting Factsheet [xlsx, 63.8 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q2/2025-08-14_PM_Q2_2025_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 250.9 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q2/Bilfinger_Half_Year_Financial_Report_2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Half-Year Financial Report [pdf, 1.1 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q2/Bilfinger_Quarterly_Statement_Q2_2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q2 2025 [pdf, 1.5 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q2/Reporting_Factsheet_Q2_2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Reporting Factsheet [pdf, 270.2 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q2/Reporting_Factsheet_Q2_2025.xlsx": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Reporting Factsheet [xlsx, 65.0 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q3/2025-11-13_PM_Q3_2025_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 235.6 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q3/Bilfinger_Quarterly_Statement_Q3_2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q3 2025 [pdf, 1.6 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q3/Reporting_Factsheet.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Reporting Factsheet (pdf) [pdf, 278.3 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q3/Reporting_Factsheet.xlsx": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Reporting Factsheet (xlsx) [xlsx, 69.2 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q4/2026-03-04_PM_FY_2025_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release Q4 / FY 2025 [pdf, 230.1 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q4/Bilfinger_Quarterly_Statement_Q4_2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q4 / FY 2025 [pdf, 2.3 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q4/GB25_e_gesamt.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Annual Report 2025 [pdf, 4.0 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q4/Jahresabschluss_Bilfinger_SE_2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Annual Financial Statement (only in German) [pdf, 823.0 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q4/Reporting_Factbook_Q4_2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Factbook [pdf, 1.7 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q4/Reporting_Factsheet.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Reporting Factsheet [pdf, 271.1 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q4/Reporting_Factsheet.xlsx": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Reporting Factsheet [xlsx, 68.7 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q4/Restated_Segment_figures_2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Restated Segment Figures 2025 [pdf]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2025/Q4/Restated_Segment_figures_2025.xlsx": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Restated Segment Figures 2025 [xlsx]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2026/Q1/2026-05-13_PM_Q1_2026_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 204.4 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2026/Q1/Bilfinger_Quarterly_Statement_Q1_2026.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q1 [pdf, 1.6 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2026/Q1/Financial_Data_Pack.xlsx": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Financial Data Pack [xlsx, 61.3 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2026/Q2/2026-08-12_PM_Q2_2026_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 219.8 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2026/Q2/Bilfinger_Half_Year_Financial_Report_2026.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Half-Year Financial Report [pdf, 686.1 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2026/Q2/Bilfinger_Quarterly_Statement_Q2_2026.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q2 2026 [pdf, 1.7 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2026/Q2/Financial_Data_Pack.xlsx": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Financial Data Pack [xlsx, 69.2 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Publikationen/Quartalsberichtserstattung/2026/Q2/Reporting_Factbook_Q2_2026.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Reporting Factbook [pdf, 1.7 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/publications/GB_2022_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger Annual Report 2022 [Printversion] [pdf, 2.8 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/publications/GB_2022_e_screen_verlinkt.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger Annual Report 2022 [Screen] [pdf, 4.0 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/publications/factbook-company-presentation/Bilfinger_Quarterly_Statement_Q3_2022.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Quarterly Statement Q3 [pdf, 1.9 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/News/Press_Release/2017/Bilfinger_Capital_Markets_Day_2017_EN.PDF": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [PDF, 318.5 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/News/Press_Release/2020/2020-02-13_Bilfinger_preliminary_results_2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 75.2 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/News/Press_Release/2020/2020-05-14-Q1-press_release_EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 311.9 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/News/Press_Release/2020/2020-08-13-Q2-EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 292.8 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/News/Press_Release/2020/2020-11-12-Q3-EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 296.1 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/One_Global_Website/News/Press_Release/2021/2021-02-11-Q4-EN.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Press Release [pdf, 313.1 KB]"
+   },
+   "https://www.bilfinger.com/fileadmin/corporate_webseite/relaunch2022/investors/publications/GB_2021_en_gesamt_220309_c.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger Annual Report 2021 [Printversion] [pdf, 3.3 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/user_upload/Bilfinger_Annual_Financial_Statements_2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger Annual Financial Statements 2021 [pdf, 2.1 MB]"
+   },
+   "https://www.bilfinger.com/fileadmin/user_upload/Bilfinger_Annual_Report_2021_Screen.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Bilfinger Annual Report 2021 [Screen] [pdf, 4.5 MB]"
+   }
+  }
  },
  "bouygues": {
   "baseline_done": false,
@@ -15,7 +549,7 @@
   "baseline_done": true,
   "count": 8,
   "healthy": true,
-  "last_ok": "2026-10-27T12:13:21.907629+00:00",
+  "last_ok": "2026-10-27T12:14:43.488392+00:00",
   "seen": {
    "https://www.eiffage.com/files/live/sites/eiffagev2/files/Finance/Informations%20reglementees/Information%20trimestrielles/2026/Communiqu%c3%a9%20Eiffage%20T1%202026.pdf": {
     "first_seen": "2026-10-27T12:13:21.907629+00:00",
@@ -55,7 +589,7 @@
   "baseline_done": true,
   "count": 55,
   "healthy": true,
-  "last_ok": "2026-10-27T12:13:21.907629+00:00",
+  "last_ok": "2026-10-27T12:14:43.488392+00:00",
   "seen": {
    "https://grupoelecnor.com/storage/media/files/shares/Gobierno_Corporativo/estatutos-sociales-elecnor-sa-vigenteseng-maquetado-1.pdf": {
     "first_seen": "2026-10-27T12:13:21.907629+00:00",
@@ -283,7 +817,7 @@
   "baseline_done": true,
   "count": 87,
   "healthy": true,
-  "last_ok": "2026-10-27T12:13:21.907629+00:00",
+  "last_ok": "2026-10-27T12:14:43.488392+00:00",
   "seen": {
    "https://www.legrand.com/fr/actualites/publication-du-premier-semestre-2026": {
     "first_seen": "2026-10-27T12:13:21.907629+00:00",
@@ -639,7 +1173,7 @@
   "baseline_done": true,
   "count": 7,
   "healthy": true,
-  "last_ok": "2026-10-27T12:13:21.907629+00:00",
+  "last_ok": "2026-10-27T12:14:43.488392+00:00",
   "seen": {
    "https://www.rexel.com/app/uploads/2026/03/Rexel-First-quarter-2026-sales.pdf": {
     "first_seen": "2026-10-27T12:13:21.907629+00:00",
@@ -678,9 +1212,755 @@
   "seen": {}
  },
  "vinci": {
-  "baseline_done": false,
-  "healthy": false,
-  "last_error": "HTTPError: 418 Client Error: I'm a teapot for url: https://www.vinci.com/finances/investisseurs/historique-resultats",
-  "seen": {}
+  "baseline_done": true,
+  "count": 186,
+  "healthy": true,
+  "last_ok": "2026-10-27T12:14:43.488392+00:00",
+  "seen": {
+   "https://www.vinci.com/publi/finance/vinci-comptes-consolides-31-12-2012.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/2017-vinci-etats-financiers-consolides-semestriels.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/2018-vinci-etats-financiers-consolides-semestriels.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/2018-vinci-etats-financiers-consolides.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/2019-vinci-etats-financiers-consolides-semestriels.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/2019-vinci-etats-financiers-consolides.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/2020-vinci-etats-financiers-consolides.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/2021-vinci-etats-financiers-consolides.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/2022-vinci-etats-financiers-consolides.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/2024-vinci-consolidated-financial-statements.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/2025-vinci-etats-financiers-consolides.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-comptes_consolides-2013.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-etats-financiers-consolides-semestriels-2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-etats-financiers-consolides-semestriels-2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-etats-financiers-consolides-semestriels-2022.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-etats-financiers-consolides-semestriels-2023.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-etats-financiers-consolides-semestriels-2024.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-annuel-2006.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-annuel-2007.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-annuel-2008.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-annuel-2010.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-annuel-2011.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-annuel-2014.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-annuel-2015.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-annuel-2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-financier-semestriel-2018.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-financier-semestriel-2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-financier-semestriel-2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-financier-semestriel-2026.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-financier-semestriel-au-30-juin-2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-financier-semestriel-au-30-juin-2022.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-financier-semestriel-au-30-juin-2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-semestriel-2006.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-semestriel-2007.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-semestriel-2008.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-semestriel-2009.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-semestriel-2010.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-semestriel-2011.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport-semestriel-2012.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport_comptes_exercice_2018.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport_semestriel_2013.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport_semestriel_2014.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport_semestriel_2015.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport_semestriel_2016.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport_semestriel_2017.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci-rapport_sur_les_comptes_de_l_exercice_2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci_comptes-consolides-au-31-decembre-2016.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci_comptes-consolides-au-31-decembre-2017.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci_comptes-consolides-au-31-decembre-2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci_comptes-consolides-au-31-decembre-2022.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/publi/vinci/vinci_comptes-consolides-au-31-decembre-2024.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Rapport"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/055E96A3AB2E20DCC12581D300598CE1/vinci_2017-q3-presentation.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/11FBAFC674E233EFC1257B090054054C/vinci-resultats-annuels-2012.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/1FA286FEF5E58200C1257A4C0027B56E/vinci-resultats-semestriels-2012.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/212B52C72FB0DC4AC125822D00524955/vinci_2017-full-years-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/225E6C30997BB9DBC1258775006073E8/vinci-first-nine-months-2021-highlights.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/2FEB7D8CDCF7D7A4C12586CD004BA199/vinci-q1-2021presentation.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/3014B2ADF51A6D58C12583F500506311/vinci-t1-2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/32879A0B4348351EC125860E0039E9A1/presentation-vinci-q3-2020-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/329C10763080BD9FC1258504004C5600/2019-vinci-full-year-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/3614E098E872E11CC125811D00497272/vinci_2017-q1-presentation.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/421891352E029561C125816B001C39E9/vinci-2016-h1.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/426829B43B86EBCAC125849D0056F438/q3-2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/47FA1F9F3B2D0D52C12582D400469965/vinci-2018-h1-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/4872098652355155C12578FC0048AF75/vinci-resultats-semestriels-2011.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/5CEDFED5936520CBC1258B0A00542433/vinci-first-quarter-2024-highlights.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/6789DE6A1328AEF8C1257D260048E0F9/vinci-resultats_semestriels.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/682300398A7BB92FC1257C760054E522/vinci-resultats_annuels_2013.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/71D5CE59E977C623C12582900049CE38/q1-2018.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/7CE2B509F424944BC1257E6E0057A166/2015-04-1st_quarter_2015_highlights.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/873CEB3726484EB9C125799D006185D1/vinci-resultats_annuels_2011-reunion_analystes.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/8875BDC2A024F581C125806B0059A541/2016-vinci-q3-highlights.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/88D7327E80610DDAC125855400416FDF/vinci-first_quarter_2020_highlights.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/8A042F7E4079CF82C1258ABB003D2D83/2023-vinci-full-year-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/9305A2CD80AD5611C12585B500608063/vinci-h1-2020-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/A565E667302672DCC12589F800561531/vinci-2023-first-half-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/A62AD76DC5B5DBAFC12580C00058DD75/vinci-2016-full-year-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/A96018AB51460B33C12587DD0056E540/vinci-2021-full-year-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/AA639BB53EC151F6C125833D005CAE58/presentation_q3-2018-2.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/ABF460F3D1B75DACC1257846004E6487/vinci-resultats-annuels-2010.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/B28B89513D6E99C4C125888D00528B99/2022-first-half-results-presentation.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/B72F551DCDE92FDAC12589AE00387079/vinci-first-quarter-2023-highlights.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/B905B010C99D20B8C1257FFE0046CFE9/vinci-h1-2017.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/C39D154DFB77D2C5C125844700542B0F/2019-h1-first-half-year-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/C4482279BF5A6201C1257FA800579E10/2016-vinci-q1-highlights.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/C4B496DB3F0215DDC1258672005E4802/vinci-2020-full-year-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/CA576E1E365918F2C1257EEC00381A32/vinci-q3-presentation.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/CD57E4021AA12FF3C1257BB8005612B6/vinci-resultats_semestriels_2013-presentation.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/CEAF85CB470AAB0FC1257B47002FAB0B/2013_06-q1_2013-update.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/D2EB2DECF88F1C60C1257DE4003610FF/2014-annual-results_paris-roadshow_february-2015.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/D402B4B36514C9F8C12588390058C91A/vinci-first_quarter_2022_highlights.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/D432175F6B7B7645C1258721004671F1/vinci-h1-2021-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/D4C51CFDD80CDBF2C125894F004CA554/2022-full-year-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/DB8BCFB9B6E5015AC1258A5400433482/vinci-first-nine-months-2023-highlits.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/DD38D5D7C2E4C7F8C1257E92005A960B/vinci-2015-half-year_financial_presentation.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/E9BF7731363B2F3FC1258BC000503C20/vinci-first-nine-months-2024-highlights-presentation.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/E9FD39CFD3E22CF2C1258B640064EF14/vinci-2024-first-half-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/FE6F19EF1FF58912C12588E8003ADC50/vinci-first-nine-months-2022-highlights.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/media/document/file/imported/investisseurs-presentations/FECE479F196DF4B9C125839800598ABB/vinci_2018-full-years-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/medias/communiques/file/2025-02/2024-vinci-resultats-annuels.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/communiques/file/2025-07/vinci-resultats-semestriels-2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/communiques/file/2025-10/vinci-information-trimestrielle-30092025-fr.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/communiques/file/2026-02/communique-de-presse-vinci-full-year-2025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/communiques/file/2026-04/premier-trimestre-2026-stabilite-du-chiffre-d-affaires-hausse-des-prises-de-commandes.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/communiques/file/2026-07/CP%20VINCI%20S1%202026%20FR_0.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/document/file/2025/02/2024-VINCI-full-year-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/medias/document/file/2025/07/2025-first-half-results-presentation_2.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/medias/document/file/2025/10/presentation-vinci-first-nine-months-2025-highlights.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/medias/document/file/2026/02/Presentation%20VINCI%20-%20FY%202025.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/medias/document/file/2026/05/vinci-first-quarter-2026-highlights.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/medias/document/file/2026/07/2026-vinci-h1-presentation.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Présentation (Anglais)"
+   },
+   "https://www.vinci.com/sites/default/files/medias/file/2025/07/vinci-etats-financiers-consolides-semestriels-2025_1.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/sites/default/files/medias/file/2026/07/2026-vinci_etats_financiers_consolides_semestriels.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "États financiers"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/0CEAC81CF781F542C1257846003B3F6C/vinci-2010_annual_financial-statements.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/187BCEDBAD537AE3C1257D260052AD76/vinci-2014-half-year-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/18A765C0B5685AB1C1258773005616C0/vinci-quarterly-information-30-september-2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/19C21C6E0C3699E5C125799C004DC8BE/vinci-2011_annual_results-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/1CE2C0A71B8D4AAAC1257D7A0056565A/vinci-t3_2014-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/203BEA8DA744D97FC125871F00489F4D/vinci-comptes-semestriels-2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/24F1F78FEE3549C0C12571E000503304/vinci-1s-2006-fr.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/24F5F0B70A5BFF71C125899C004A0C79/vinci-quarterly-information-31-march-2023.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/28078C241870493EC1257B580055D84E/vinci-pr_q1_2013_eng.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/3195FBFA04C128D0C125756E005FEA7F/vinci-2008results-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/33ECBCE6A0602C95C12571640055E47C/caq1_2006-fr.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/3AC8273655725E03C125778F0068BC63/vinci-semestriels-2010-fr.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/3DE9E101AA5455A3C12574B3003C64BA/vinci-res-semestriels-08.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/3EFB9E8894A7A0E5C125805700560327/vinci-cp_t3_2016-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/41F603E887885A49C1258A540046A33C/quarterly-information-30-september-2023.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/4311796E58CEB987C1258BC0004309D2/vinci-information-trimestrielle-30-septembre-2024.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/474BD568630AA8E9C12582D6002E48F0/vinci-h1-2018-cp.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/47B43BBB52708894C12577D600306204/vinci-revenue-q3-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/4806707527940D78C12578FC00465114/vinci-2011-first-half-financial-statement.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/481C1EC180D46044C125894F004B8979/vinci-resultats-annuels-2022.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/4847D9053DDB7AFAC125827B0053E4C0/vinci-cp_t1_2018-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/49F4033DF9A202DDC12588E6004F9A40/quarterly-information-30-september-2022.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/535C6EDCA7DE0BFEC1257C0E0056214E/vinci-pr_q3_2013-eng.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/541261A0CEF85CA6C1257DE20055B400/vinci_2014-annual-results_press-release.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/543AA4EADFD00CF5C12584470052CCF8/vinci-comptes-semestriels-2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/6188A350443F21E9C125721A003A9C0E/vinci_ca_q3-fr.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/68D552B3508A55D2C1257B090055EE43/vinci-2012_annual_results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/6C92AFB31F0D69EEC12586BF00564156/vinci-quarterly-information-31-march-2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/6CB4B1C3066BB4C9C12586070050EEE4/vinci-quarterly_information_at_30_september_2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/751677BD08381250C12585B5005222DF/vinci-comptes-semestriels-2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/7B59C91AB001DA29C12575B40044E7B1/vinci-ca-q1-2009-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/7C1361F002D93264C12572CF0054F525/vinci-ca-t1_2007-fr.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/7E0BE334FBF0A550C125738B0055DCA1/vinci_ca_q3_2007-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/814FCABEF4AC8A9AC1258B090026FF0B/quarterly-information-31-march-2024.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/8355EBF9D96619C2C125793D00542A21/vinci-revenue-q3-2011-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/87AF1CA066B7C291C12589F70038D3C2/vinci-comptes-semestriels-2023.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/881476FEF500FEE1C125839800542AF6/vinci-cp-fy2018-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/894196F41EEF49E6C125816A0032C5F9/vinci-semestriels-2017.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/8F5A4D7CD5458882C1257EE700496DE8/vinci-3q-2015.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/921FF0A2A746600EC125728F00507E1B/cptes-annuels-vinci-06-fr.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/941222F737C3A208C12573FC005A9D95/vinci-2007-financial-statements-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/95DC3623D547AE3CC1257885004C48B8/vinci-ca-q1-2011-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/9DA4305645BFB3F3C1258B62005270AA/comptes-semestriels-2024.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/9E88DCCFB5D280E3C1257FFE005A9D65/vinci-first-half-2016-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/A2C0A3661EA9CBA1C1258672005F5A4B/vinci-resultats-annuels-2020.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/A31B1B1A3FCDDE5DC1257E3000551B34/vinci-pr-1q-2015-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/A5E6677A5FCA1822C1257CC40055C71E/vinci-cp_q1_2014-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/A60EEE1E62526190C125832F00506FEA/vinci-q3-2019.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/A6336C64BDCE3245C125822D00527B4C/vinci-fy2017-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/A8392FEF407C469EC12576230041C25F/vinci-half-year-results-09.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/A96138267CA69026C1257BB800511DAE/vinci-2012-half-year-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/ABC9B72C5DB06CC9C125734C00499361/vinci-cp-semestriels-07-fr.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/AE781399C065D079C125766C0055EFD7/vinci-ca-q3-2009-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/B1BF2A52E6595CAAC125750000620D84/vinci-ca-q32008-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/B705A92DB787DB05C12580C0005ADF5A/vinci-cp_fy2016-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/C0A65D53F09EEDDEC1257718004804B4/vinci-revenue-q1-2010.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/C1CC9E28885DAC80C125882B0056AC37/quarterly-information-31-march-2022.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/C2603276543450F6C12583E500504561/23-04-2019-vinci-cp-t1-2019-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/C2E94AA0F8215BF5C12587DF0026286D/vinci-resultats-annuels-2021.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/C34A345E8D795AD5C125744800563818/vinci-ca-q1-08-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/C71EF20F73B37836C1257E9200586BA8/2015-vinci-half-year_results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/C847E7319868EE59C12579EC004B9DB7/vinci-info_q1_2012-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/C8FC813EEDC6D4E4C1257A4B00582C7D/vinci-2012-half-year-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/CB62C41A9465C464C125849D004BE189/23102018-vinci-cp-q3-2018-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/CC0937D0FE56973CC12581C30053292F/vinci-cp-t3-2017-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/D800AB3460B47527C1258ABB003D7EE5/vinci-resultats-annuels-2023.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/D856393D31847D63C125810F004C86DA/vinci-2017-t1-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/DB79E967A5E43DB2C125855300520602/vinci-q12020-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/DE950057CACAA098C1257C76005AA0DF/vinci-2013_annual_results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/E64F8972FC6ED955C1257F4F005CF351/vinci-2015_annual_results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/E8FB17885F395F63C125888D004FF545/comptes-semestriels-2022.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/E99DAB39DB3604D3C1257FA3003B704E/vinci-q1-results.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   },
+   "https://www.vinci.com/sites/default/files/medias/imported/communiques/file/FC2AE95D155351EEC1258504004AD788/vinci-cp-fy2019-en.pdf": {
+    "first_seen": "2026-10-27T12:14:43.488392+00:00",
+    "label": "Communiqué de presse"
+   }
+  }
  }
 }

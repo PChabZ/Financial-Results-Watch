@@ -1,5 +1,23 @@
 [
  {
+  "body": "<p>La page est de nouveau lisible.</p>",
+  "date": "2026-10-27T12:14:43.488392+00:00",
+  "guid": "65782943f031e8c766d5c23de54aa69be3541ca1",
+  "link": "https://www.vinci.com/finances/investisseurs/historique-resultats",
+  "site": "VINCI",
+  "slug": "vinci",
+  "title": "✅ VINCI : suivi rétabli"
+ },
+ {
+  "body": "<p>La page est de nouveau lisible.</p>",
+  "date": "2026-10-27T12:14:43.488392+00:00",
+  "guid": "7f29e4a006833bddaf1875b34f1964ef37111778",
+  "link": "https://www.bilfinger.com/en/investors/publications/quarterly-reporting/",
+  "site": "Bilfinger",
+  "slug": "bilfinger",
+  "title": "✅ Bilfinger : suivi rétabli"
+ },
+ {
   "body": "<p>Le relevé a échoué (HTTPError: 403 Client Error: Forbidden for url: https://www.se.com/ww/fr/about-us/investor-relations/financial-results/). L'historique est conservé ; le suivi reprendra automatiquement.</p>",
   "date": "2026-10-27T12:13:21.907629+00:00",
   "guid": "c986ee011cba317d85ca5326ebbde07bdcc52632",
