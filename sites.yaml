@@ -38,6 +38,9 @@ sites:
   - slug: bilfinger
     name: Bilfinger
     url: https://www.bilfinger.com/en/investors/publications/quarterly-reporting/
+    # Certificat du serveur Bilfinger incomplet : vérification désactivée pour ce site
+    # (lecture seule d'une page publique, aucune donnée envoyée)
+    insecure: true
 
   - slug: elecnor
     name: Elecnor

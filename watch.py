@@ -24,7 +24,8 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent
 DEFAULT_INCLUDE = r"\.(pdf|xlsx?|xlsm)(\?|$)"
 MAX_ITEMS = 150
-UA = "Mozilla/5.0 (compatible; ir-watch/1.0; personal RSS generator)"
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
 
 
 def now():
@@ -43,8 +44,17 @@ def save_json(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 
 
-def fetch(url, timeout=30):
-    r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "fr,en;q=0.8"}, timeout=timeout)
+HEADERS = {
+    "User-Agent": UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+}
+
+
+def fetch(url, timeout=30, verify=True):
+    if not verify:
+        requests.packages.urllib3.disable_warnings()
+    r = requests.get(url, headers=HEADERS, timeout=timeout, verify=verify)
     r.raise_for_status()
     return r.text
 
@@ -83,7 +93,8 @@ def check_site(site, state, ts, fetcher=fetch):
     slug = site["slug"]
     s = state.setdefault(slug, {"seen": {}, "healthy": True, "baseline_done": False})
     try:
-        links = extract_links(fetcher(site["url"]), site["url"],
+        html = fetcher(site["url"], verify=not site.get("insecure")) if fetcher is fetch else fetcher(site["url"])
+        links = extract_links(html, site["url"],
                               site.get("include", DEFAULT_INCLUDE), site.get("exclude"), site.get("scope"))
         error = None if links else "aucun document trouvé sur la page"
     except Exception as e:  # réseau, 403, timeout...
