@@ -10,12 +10,13 @@ sites:
     name: Rexel
     url: https://www.rexel.com/fr/investisseurs/resultats-financiers
 
+  # Schneider et Bouygues bloquent les accès depuis GitHub : on lit leurs communiqués
+  # officiels sur Euronext (titres filtrés : résultats / chiffre d'affaires uniquement).
   - slug: schneider
     name: Schneider Electric
-    url: https://www.se.com/ww/fr/about-us/investor-relations/financial-results/
-    # Les documents Schneider n'ont pas d'extension .pdf dans l'URL
-    include: '(/assets/pdf/|p_Doc_Ref=|\.pdf(\?|$))'
-    exclude: 'wiztrust'
+    type: euronext
+    url: https://live.euronext.com/fr/listview/company-press-release/003751
+    see_also: https://www.se.com/ww/fr/about-us/investor-relations/financial-results/
 
   - slug: legrand
     name: Legrand
@@ -33,7 +34,9 @@ sites:
 
   - slug: bouygues
     name: Bouygues
-    url: https://www.bouygues.com/resultats/
+    type: euronext
+    url: https://live.euronext.com/fr/listview/company-press-release/003126
+    see_also: https://www.bouygues.com/resultats/
 
   - slug: bilfinger
     name: Bilfinger

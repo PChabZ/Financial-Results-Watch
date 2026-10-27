@@ -73,3 +73,15 @@ def test_issue_notifications_only_for_publications_and_alerts():
     n = watch.notify_issues(items, "o/r", "t", post=lambda url, payload: sent.append((url, payload)))
     assert n == 1 and sent[0][0] == "https://api.github.com/repos/o/r/issues"
     assert "[Communiqué de presse – Ventes du T3 2026](https://www.rexel.com/app/uploads/2026/09/CP-Ventes-du-T3-2026.pdf)" in sent[0][1]["body"]
+
+
+EURONEXT = """<table><tbody>
+<tr><td>16 Oct 2026 07:30 CEST</td><td>SCHNEIDER ELECTRIC SE</td><td>Third Quarter Revenues 2026</td><td>x</td><td>Share history</td><td><a href="" data-node-nid="111">o</a></td></tr>
+<tr><td>26 Oct 2026 17:45 CET</td><td>SCHNEIDER ELECTRIC SE</td><td>Weekly share buyback</td><td>x</td><td>Other</td><td><a href="" data-node-nid="112">o</a></td></tr>
+<tr><td>05 Oct 2026 07:00 CEST</td><td>SCHNEIDER ELECTRIC SE</td><td>Schneider Electric to acquire PTC</td><td>x</td><td>M&amp;A</td><td><a href="" data-node-nid="113">o</a></td></tr>
+</tbody></table>"""
+
+
+def test_euronext_keeps_only_results():
+    d = watch.extract_euronext(EURONEXT, "https://live.euronext.com/x")
+    assert list(d.values()) == ["16 Oct 2026 07:30 CEST — Third Quarter Revenues 2026"]

@@ -83,11 +83,33 @@ def extract_links(html, base_url, include, exclude=None, scope=None):
     return out
 
 
+RESULTS_TITLES = (r"r[ée]sultat|results|chiffre d.affaires|revenue|\bsales\b|trimestre|quarter|semestr|half|"
+                  r"annuel|annual|full.year|9 (premiers )?mois|nine.months|[ée]tats financiers|financial statements|"
+                  r"rapport financier|financial report|information financi|performance")
+NOISE_TITLES = r"rachat d.actions|share buyback|own shares|actions propres|droits de vote|voting rights|nombre total|total number"
+
+
+def extract_euronext(html, page_url, title_include=None, title_exclude=None):
+    """Liste des communiqués d'une société sur live.euronext.com : {page#nid: 'date — titre'}."""
+    inc = re.compile(title_include or RESULTS_TITLES, re.I)
+    exc = re.compile(title_exclude or NOISE_TITLES, re.I)
+    out = {}
+    for row in BeautifulSoup(html, "html.parser").select("table tbody tr"):
+        cells = [" ".join(td.get_text(" ").split()) for td in row.find_all("td")]
+        a = row.find("a", attrs={"data-node-nid": True})
+        if len(cells) < 3 or not a:
+            continue
+        date, title = cells[0], cells[2].replace("\\'", "'")
+        if inc.search(title) and not exc.search(title):
+            out[f"{page_url}#nid={a['data-node-nid']}"] = f"{date} — {title}"
+    return out
+
+
 def make_item(site, title, body_html, link, ts, kind="info", links=None):
     guid = hashlib.sha1(f"{site['slug']}|{title}|{ts.isoformat()}".encode()).hexdigest()
     return {"guid": guid, "slug": site["slug"], "site": site["name"], "title": title, "kind": kind,
             "link": link, "body": body_html, "date": ts.isoformat(), "links": links or [],
-            "page": site["url"]}
+            "page": site["url"], "see_also": site.get("see_also")}
 
 
 def check_site(site, state, ts, fetcher=fetch):
@@ -96,9 +118,13 @@ def check_site(site, state, ts, fetcher=fetch):
     s = state.setdefault(slug, {"seen": {}, "healthy": True, "baseline_done": False})
     try:
         html = fetcher(site["url"], verify=not site.get("insecure")) if fetcher is fetch else fetcher(site["url"])
-        links = extract_links(html, site["url"],
-                              site.get("include", DEFAULT_INCLUDE), site.get("exclude"), site.get("scope"))
-        error = None if links else "aucun document trouvé sur la page"
+        if site.get("type") == "euronext":
+            links = extract_euronext(html, site["url"], site.get("title_include"), site.get("title_exclude"))
+            error = None if html.count("data-node-nid") else "liste Euronext introuvable"
+        else:
+            links = extract_links(html, site["url"],
+                                  site.get("include", DEFAULT_INCLUDE), site.get("exclude"), site.get("scope"))
+            error = None if links else "aucun document trouvé sur la page"
     except Exception as e:  # réseau, 403, timeout...
         links, error = {}, f"{type(e).__name__}: {e}"[:200]
 
@@ -169,8 +195,9 @@ def notify_issues(items, repo, token, post=None):
             continue
         if it["kind"] == "publication":
             lines = [f"- [{label}]({url})" for url, label in it["links"]]
+            extra = [f"Documents sur le site de la société : {it['see_also']}"] if it.get("see_also") else []
             body = "\n".join(["**Nouveaux documents détectés :**", "", *lines, "",
-                              f"Page source : {it['page']}"])
+                              f"Page source : {it['page']}", *extra])
         else:
             body = (f"La page n'a pas pu être lue lors du dernier passage.\n\n"
                     f"Page : {it['page']}\n\nL'historique est conservé ; le suivi reprendra automatiquement.")
