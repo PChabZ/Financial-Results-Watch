@@ -18,5 +18,10 @@ for k, u in urls.items():
                   "head": r.text[:1500]}
     except Exception as e:
         out[k] = {"error": str(e)[:300]}
+for k in ("euronext_bouygues", "euronext_schneider"):
+    try:
+        open(f"state/{k}.html", "w").write(requests.get(urls[k], headers=HEADERS, timeout=30).text)
+    except Exception as e:
+        print(k, e)
 json.dump(out, open("state/probe.json", "w"), ensure_ascii=False, indent=1)
 print({k: v.get("status", v.get("error")) for k, v in out.items()})
