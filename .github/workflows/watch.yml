@@ -1,0 +1,35 @@
+name: IR Watch
+
+on:
+  schedule:
+    # Matin (~8h10 Paris) et soir (~18h40 Paris) en semaine, heures UTC.
+    # Couvre les publications avant ouverture et après clôture.
+    - cron: "10 6 * * 1-5"
+    - cron: "40 16 * * 1-5"
+  workflow_dispatch: {}   # bouton "Run workflow" pour lancer à la main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ir-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python watch.py
+      - name: Enregistrer l'état et les flux
+        run: |
+          git config user.name "ir-watch-bot"
+          git config user.email "ir-watch-bot@users.noreply.github.com"
+          git add state docs
+          git diff --cached --quiet || git commit -m "IR Watch $(date -u +%F_%H%M)"
+          git push

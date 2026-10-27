@@ -1,0 +1,44 @@
+# Pages surveillées. Pour ajouter une entreprise : copier un bloc, changer slug/name/url.
+#
+# include : regex appliquée à l'URL des liens. Seuls les liens qui matchent sont suivis.
+#           Par défaut : documents (.pdf, .xls, .xlsx, .xlsm).
+# exclude : regex des liens à ignorer (bruit récurrent).
+# scope   : (optionnel) sélecteur CSS pour limiter la zone lue de la page.
+
+sites:
+  - slug: rexel
+    name: Rexel
+    url: https://www.rexel.com/fr/investisseurs/resultats-financiers
+
+  - slug: schneider
+    name: Schneider Electric
+    url: https://www.se.com/ww/fr/about-us/investor-relations/financial-results/
+    # Les documents Schneider n'ont pas d'extension .pdf dans l'URL
+    include: '(/assets/pdf/|p_Doc_Ref=|\.pdf(\?|$))'
+    exclude: 'wiztrust'
+
+  - slug: legrand
+    name: Legrand
+    url: https://www.legrand.com/fr/investisseurs-et-actionnaires/chiffres-cles-etats-financiers
+    # PDF des états financiers + communiqué "Publication du ..." (publié avant les comptes)
+    include: '(\.pdf(\?|$)|/actualites/(publication|chiffre-daffaires|resultats))'
+
+  - slug: eiffage
+    name: Eiffage
+    url: https://www.eiffage.com/finance/resultats
+
+  - slug: vinci
+    name: VINCI
+    url: https://www.vinci.com/finances/investisseurs/historique-resultats
+
+  - slug: bouygues
+    name: Bouygues
+    url: https://www.bouygues.com/resultats/
+
+  - slug: bilfinger
+    name: Bilfinger
+    url: https://www.bilfinger.com/en/investors/publications/quarterly-reporting/
+
+  - slug: elecnor
+    name: Elecnor
+    url: https://www.grupoelecnor.com/quarterly-results
