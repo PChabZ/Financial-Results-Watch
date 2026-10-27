@@ -1,6 +1,32 @@
 [
  {
   "body": "<p>La page est de nouveau lisible.</p>",
+  "date": "2026-10-27T12:33:54.693117+00:00",
+  "guid": "1a86a7a6d571024bd394edad3b86fa03bbd404b6",
+  "kind": "info",
+  "link": "https://live.euronext.com/fr/listview/company-press-release/003751",
+  "links": [],
+  "page": "https://live.euronext.com/fr/listview/company-press-release/003751",
+  "see_also": "https://www.se.com/ww/fr/about-us/investor-relations/financial-results/",
+  "site": "Schneider Electric",
+  "slug": "schneider",
+  "title": "✅ Schneider Electric : suivi rétabli"
+ },
+ {
+  "body": "<p>La page est de nouveau lisible.</p>",
+  "date": "2026-10-27T12:33:54.693117+00:00",
+  "guid": "195aa489dcd7a0ad61d4a8a671c3d48c07bbe00b",
+  "kind": "info",
+  "link": "https://live.euronext.com/fr/listview/company-press-release/003126",
+  "links": [],
+  "page": "https://live.euronext.com/fr/listview/company-press-release/003126",
+  "see_also": "https://www.bouygues.com/resultats/",
+  "site": "Bouygues",
+  "slug": "bouygues",
+  "title": "✅ Bouygues : suivi rétabli"
+ },
+ {
+  "body": "<p>La page est de nouveau lisible.</p>",
   "date": "2026-10-27T12:14:43.488392+00:00",
   "guid": "65782943f031e8c766d5c23de54aa69be3541ca1",
   "link": "https://www.vinci.com/finances/investisseurs/historique-resultats",
