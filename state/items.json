@@ -1,0 +1,38 @@
+[
+ {
+  "body": "<p>Le relevé a échoué (HTTPError: 403 Client Error: Forbidden for url: https://www.se.com/ww/fr/about-us/investor-relations/financial-results/). L'historique est conservé ; le suivi reprendra automatiquement.</p>",
+  "date": "2026-10-27T12:13:21.907629+00:00",
+  "guid": "c986ee011cba317d85ca5326ebbde07bdcc52632",
+  "link": "https://www.se.com/ww/fr/about-us/investor-relations/financial-results/",
+  "site": "Schneider Electric",
+  "slug": "schneider",
+  "title": "⚠️ Schneider Electric : page à vérifier"
+ },
+ {
+  "body": "<p>Le relevé a échoué (HTTPError: 418 Client Error: I'm a teapot for url: https://www.vinci.com/finances/investisseurs/historique-resultats). L'historique est conservé ; le suivi reprendra automatiquement.</p>",
+  "date": "2026-10-27T12:13:21.907629+00:00",
+  "guid": "3a70d7e03868ee81af74ac62bd4697453f9da3db",
+  "link": "https://www.vinci.com/finances/investisseurs/historique-resultats",
+  "site": "VINCI",
+  "slug": "vinci",
+  "title": "⚠️ VINCI : page à vérifier"
+ },
+ {
+  "body": "<p>Le relevé a échoué (HTTPError: 403 Client Error: Forbidden for url: https://www.bouygues.com/resultats/). L'historique est conservé ; le suivi reprendra automatiquement.</p>",
+  "date": "2026-10-27T12:13:21.907629+00:00",
+  "guid": "d05294eabc3dd25f55dd952c4361a3444ff11ae1",
+  "link": "https://www.bouygues.com/resultats/",
+  "site": "Bouygues",
+  "slug": "bouygues",
+  "title": "⚠️ Bouygues : page à vérifier"
+ },
+ {
+  "body": "<p>Le relevé a échoué (SSLError: HTTPSConnectionPool(host='www.bilfinger.com', port=443): Max retries exceeded with url: /en/investors/publications/quarterly-reporting/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL:). L'historique est conservé ; le suivi reprendra automatiquement.</p>",
+  "date": "2026-10-27T12:13:21.907629+00:00",
+  "guid": "1d1e666c522ddbc333c36c0b7cb7731454b348c0",
+  "link": "https://www.bilfinger.com/en/investors/publications/quarterly-reporting/",
+  "site": "Bilfinger",
+  "slug": "bilfinger",
+  "title": "⚠️ Bilfinger : page à vérifier"
+ }
+]

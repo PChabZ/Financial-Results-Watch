@@ -1,0 +1,686 @@
+{
+ "bilfinger": {
+  "baseline_done": false,
+  "healthy": false,
+  "last_error": "SSLError: HTTPSConnectionPool(host='www.bilfinger.com', port=443): Max retries exceeded with url: /en/investors/publications/quarterly-reporting/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL:",
+  "seen": {}
+ },
+ "bouygues": {
+  "baseline_done": false,
+  "healthy": false,
+  "last_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bouygues.com/resultats/",
+  "seen": {}
+ },
+ "eiffage": {
+  "baseline_done": true,
+  "count": 8,
+  "healthy": true,
+  "last_ok": "2026-10-27T12:13:21.907629+00:00",
+  "seen": {
+   "https://www.eiffage.com/files/live/sites/eiffagev2/files/Finance/Informations%20reglementees/Information%20trimestrielles/2026/Communiqu%c3%a9%20Eiffage%20T1%202026.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "12.05.2026 Information financière au 31 mars 2026"
+   },
+   "https://www.eiffage.com/files/live/sites/eiffagev2/files/Finance/R%c3%a9sultats/2026/2026-rapport-financier-semestriel.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "27.08.2026 Rapport financier semestriel 2026"
+   },
+   "https://www.eiffage.com/files/live/sites/eiffagev2/files/Finance/R%c3%a9sultats/2026/information-financiere-daprr-pour-le-3e-trimestre-2026-vff.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "20.10.2026 Chiffre d’affaires et trafic d’APRR pour le 3e trimestre 2026"
+   },
+   "https://www.eiffage.com/files/live/sites/eiffagev2/files/Finance/R%c3%a9sultats/2026/presentation-detaillee-des-resultats-semestriels-2026-eiffage.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "26.08.2026 Présentation détaillée des résultats semestriels 2026"
+   },
+   "https://www.eiffage.com/files/live/sites/eiffagev2/files/M%c3%a9dias/Communiqu%c3%a9%20de%20presse/2026/Information%20financiere%20dAPRR%20pour%20le%201er%20semestre%202026.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "28.07.2026 Chiffres d’affaires et trafic d’APRR pour le 1er semestre 2026"
+   },
+   "https://www.eiffage.com/files/live/sites/eiffagev2/files/M%c3%a9dias/Communiqu%c3%a9%20de%20presse/2026/InformationfinancieredAPRRpourle1ertrimestre2026.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "20.04.2026 Chiffre d’affaires et trafic d’APRR pour le 1er trimestre 2026"
+   },
+   "https://www.eiffage.com/files/live/sites/eiffagev2/files/M%c3%a9dias/Communiqu%c3%a9%20de%20presse/2026/cp-eiffage-1er-semestre-2026.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "26.08.2026 Résultats du 1er semestre 2026"
+   },
+   "https://www.eiffage.com/files/live/sites/eiffagev2/files/Transition%20%c3%a9cologique/Rapport-climat-Eiffage-2026.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Découvrez le rapport climat 2026"
+   }
+  }
+ },
+ "elecnor": {
+  "baseline_done": true,
+  "count": 55,
+  "healthy": true,
+  "last_ok": "2026-10-27T12:13:21.907629+00:00",
+  "seen": {
+   "https://grupoelecnor.com/storage/media/files/shares/Gobierno_Corporativo/estatutos-sociales-elecnor-sa-vigenteseng-maquetado-1.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Statuts Sociaux"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Gobierno_Corporativo/2966785a2a.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Présentation des résultats annuels"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Gobierno_Corporativo/eno-pres-2022-v8-en-1.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Présentation des résultats par webcast"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Gobierno_Corporativo/eno-r-12m22-lda-en.xlsx": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annual results. Economic-financial information tables (Excel)"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/InformesAnuales_Accionistas/20221107-oir-informe-resultados-3t-2022.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "20221107-oir-informe-resultados-3t-2022.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Informes_Anuales/20230224-oir-informe-de-resultados-2022esp.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "20230224-oir-informe-de-resultados-2022esp.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Informes_Anuales/20260504-resultados-grupo-elecnor-3m-2026-en.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "20260504-resultados-grupo-elecnor-3m-2026-en.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Informes_Anuales/2209cnmv9m.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Troisième trimestre"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Informes_Anuales/informe-resultados-2021.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Rapport sur les résultats annuels"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Informes_Anuales/presentacion-de-resultados-1s-2022-ingles-navegable.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "presentacion-de-resultados-1s-2022-ingles-navegable.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Informes_Anuales/resultados-anuales-cuadros-de-informacion-economico-financieraexcelen.xlsx": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "resultados-anuales-cuadros-de-informacion-economico-financieraexcelen.xlsx"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Responsabilidad_Corporativa/4acbf74e2a.xlsx": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Results January-March 2022. Economic-financial information tables (Excel)"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2017/CNMV-3T-2017_FR.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Troisième trimestre"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2017/Pre_Resultados_julio_2017_FRA.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Pre_Resultados_julio_2017_FRA.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2017/resultados-trimestrales-1T-2017.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "resultados-trimestrales-1T-2017.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2018/Resultados_1S_2018_27%2007%2017%20EN.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Resultados_1S_2018_27%2007%2017%20EN.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2018/Resultados_1T_2018%20EN.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Resultados_1T_2018%20EN.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2018/presentacion-resultados-2018-fr.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "presentacion-resultados-2018-fr.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2019/1903cnmvcon-graficos-en.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "1903cnmvcon-graficos-en.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2019/1909cnmv9m.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Troisième trimestre"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2019/presentacion-de-resultados-2019-fra.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "presentacion-de-resultados-2019-fra.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2019/resultados-1s-2019en.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Présentation premier semestre"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2020/2003cnmv3m08-05-20.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "2003cnmv3m08-05-20.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2020/elecnor-resultats-de-lexercice-2020.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "elecnor-resultats-de-lexercice-2020.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2020/presentacion-de-resultados-1s-2020-en-navegable.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "presentacion-de-resultados-1s-2020-en-navegable.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2021/2109cnmv9m-definitiva-enaprobado-cda.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "2109cnmv9m-definitiva-enaprobado-cda.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2022/grupo-elecnor-presentacion-de-resultados-2022-frances-navegable.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "grupo-elecnor-presentacion-de-resultados-2022-frances-navegable.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2022/informe-resultados-1s-2022.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Rapport sur les résultats du premier semestre"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2022/tablasanalistasgrupoelecnor1s-2022-es.xlsx": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Resultados enero-junio 2022. Cuadros de información económico-financiera (Excel)"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2023/eno-r-9m23-lda-sp.xlsx": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Resultados enero-septiembre 2023. Cuadros de información económico-financiera (Excel)"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2023/groupe-elecnor-resultats-de-lexercice-2023.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "groupe-elecnor-resultats-de-lexercice-2023.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2024/presentacion-1s-en.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "presentacion-1s-en.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/2303cnmv3m.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Primer Trimestre"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/Resultados_Trimestrales/eno-r-1t23-v5-sp-defpdf.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Informe de Resultados Primer Trimestre"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/f2e7075879.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Troisième trimestre"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/2203cnmv3men.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Primer Trimestre"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/2409-cnmv-version-finalen.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "2409-cnmv-version-finalen.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/2509cnmves-versionfinal.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "2509cnmves-versionfinal.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/EN/elecnor-s.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Results January-March 2024"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/EN/grupo-elecnor-eng-resultados-1s-2026-eng.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Présentation des résultats du premier semestre"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/EN/presentacion-de-resultados-1s-2021-ingles-navegable.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "presentacion-de-resultados-1s-2021-ingles-navegable.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/EN/resultados-1-trimestre-2024eng.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "resultados-1-trimestre-2024eng.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/ES/20231030-oir-informe-resultados-3t-2023.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "20231030-oir-informe-resultados-3t-2023.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/ES/20231030-oir-presentacion-resultados-trimestrales-3t.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "20231030-oir-presentacion-resultados-trimestrales-3t.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/ES/2103cnmv3m-1.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Primer Trimestre"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/ES/ResultadosElecnor_3%C2%BA%20T%202018_10_29.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "ResultadosElecnor_3%C2%BA%20T%202018_10_29.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/ES/grupo-elecnorpresentacion-de-resultados-202428-02-25eng-2.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "grupo-elecnorpresentacion-de-resultados-202428-02-25eng-2.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/eno-r-1s23-espaol-sr.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "First Half Year Results Report"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/esp-grupo-elecnor-resultados-2025.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "esp-grupo-elecnor-resultados-2025.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/grupo-elecnor-informacion-resultados-1-trimestre-2025en.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "grupo-elecnor-informacion-resultados-1-trimestre-2025en.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/grupo-elecnor-resultados-9m-en.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Presentación de Resultados 9 meses"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/informe-resultados-1t2022env5.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "informe-resultados-1t2022env5.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/informe-resultados-3ten.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Third quarter results report"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/presentacion-de-resultados-1s-2023-es.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "presentacion-de-resultados-1s-2023-es.pdf"
+   },
+   "https://www.grupoelecnor.com/storage/media/files/shares/hechos_relevantes/presentacion-resultados-1s-2025-eng.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "presentacion-resultados-1s-2025-eng.pdf"
+   }
+  }
+ },
+ "legrand": {
+  "baseline_done": true,
+  "count": 87,
+  "healthy": true,
+  "last_ok": "2026-10-27T12:13:21.907629+00:00",
+  "seen": {
+   "https://www.legrand.com/fr/actualites/publication-du-premier-semestre-2026": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Publication du premier semestre 2026"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2005/1Y/Legrand_Financial_Statement_FY_2005_FR.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2005/3m/Legrand_Holding_Q1_05_Financial_Statements.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2005/6m/Legrand_Holding_H1_05_Financial_Statements.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2005/9m/Legrand_Holding_9M05_Financial_Statements.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2006/1Y/Legrand_Etats_Financiers_Consolides_2006.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2006/3m/Legrand_Etats_Financiers_T1_2006.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2006/6m/28-07-06-Legrand_Etats_Financiers_S1_2006_FR.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2006/9m/Legrand_Etats_Financiers_9M_2006.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2007/1Y/Legrand_Etats_Financiers_FY_2007.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2007/3m/Legrand_Etats_Financiers_T1_2007.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2007/6m/Legrand_Rapport_financier_semestriel_2007.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2007/9m/Legrand_Etats_Financiers_9M_2007.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2008/1Y/Legrand_Etats_Financiers_FY_2008.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2008/3m/Legrand_Etats_Financiers_T1_2008.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2008/6m/Legrand-Rapport-Financier-Semestriel-2008.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2008/9m/Legrand-Etats-Financiers-9M-2008.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2009/1Y/Legrand_Plaquette_311209_FR.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2009/3m/Legrand_Etats_Financiers_T1_2009.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2009/6m/Rapport_semestriel_30_06_09_FR.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2009/9m/Plaquette_Legrand_IFRS_9M09_FR.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2010/1Y/Plaquette_Legrand_IFRS_311210.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2010/3m/Legrand_Etats_Financiers_Consolides_T1_2010.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2010/6m/Rapport_financier_semestriel_30_06_10_FR.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2010/9m/Legrand-Etats-Financiers-9M-2010.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2011/1Y/Legrand_Etats_Financiers_2011.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2011/3m/Legrand_Etats_Financiers_T1_2011.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2011/6m/Legrand_Rapport_financier_semestriel_2011.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2011/9m/Legrand_Etats_Financiers_9M_2011.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2012/1Y/Legrand_Etats_Financiers_2012.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2012/3m/Legrand_Etats_Financiers_Consolides_T1_2012.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2012/6m/Legrand_Rapport_financier_semestriel_2012.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2012/9m/Plaquette_simplifiee_Legrand_IFRS_300912.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2013/1Y/Legrand_Etats_Financiers_2013.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2013/3m/Legrand_Etats_Financiers_T1_2013.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2013/6m/Legrand_Rapport_financier_semestriel_2013.pdf.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2013/9m/Legrand_Etats_Financiers_9M_2013.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2014/1Y/Legrand_Etats_Financiers_Consolides_2014.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2014/3m/Legrand_Etats_Financiers_Consolides_T1_2014.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2014/6m/Legrand_Rapport_financier_semestriel_2014.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2014/9m/Legrand_Etats_Financiers_Consolides_9M_2014.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2015/1Y/Legrand_Etats_Financiers_Consolides_2015.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2015/3m/Legrand_Etats_Financiers_Consolides_T1_2015_yc_reconciliation_IFRIC_21_pour_2014.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2015/6m/Legrand_Rapport_financier_semestriel_2015_FR.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2015/9m/Legrand_Etats_Financiers_Consolides_9M_2015.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2016/1Y/Legrand_Etats_Financiers_Consolides_2016.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2016/3m/Legrand_Etats_Financiers_Consolides_T1_2016.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2016/6m/Legrand_Rapport_financier_semestriel_2016.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2016/9m/Legrand_Etats_Financiers_Consolides_9M_2016.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2017/1Y/Legrand_Etats_Financiers_Consolides_2017.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2017/3m/Legrand_Etats_Financiers_Consolides_T1_2017.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2017/6m/Legrand_Rapport_financier_semestriel_2017.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2017/9m/Legrand_Etats_Financiers_9M_2017_FR.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2018/3m/Legrand_Etats_Financiers_Consolides_T1__2018.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2018/6m/Legrand_Rapport_financier_semestriel_2018_FR.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2018/9m/Legrand_Etats_Financiers_Consolides_9M_2018.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2019/1Y/Legrand_Etats_Financiers_Consolides_2018_1550088068.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2019/3m/Legrand_Etats_Financiers_Consolides_T1_2019_1556644143.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2019/6m/Legrand_Rapport_financier_semestriel_2019_FR_1564413660.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2019/9m/Legrand_Etats_Financiers_Consolides_9M2019_FR_1573051719.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2020/1Y/Legrand_Etats_Financiers_Consolides_2020_1612972649.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2020/3m/Legrand_Etats_Financiers_Consolides_T1_2020_1588785076.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2020/6m/Legrand_Rapport_financier_semestriel_2020_FR_1596209780.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2020/9m/Legrand_Comptes_Consolides_Q3_2020_FR_1604513226.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2020/autres/Legrand-Comptes_consolides_FY_2019_1587053757.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2021/1Y/Legrand_Etats_Financiers_Consolides_2021_1644418741.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2021/3m/Legrand_Etats_Financiers_Consolide%CC%81s_T1_2021_%20FR_1620221463.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2021/6m/Legrand_Rapport_financier_semestriel_2021_FR_1627567617.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2021/9m/Legrand_Comptes_consolides_Q32021_FR_1635950734.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2022/1Y/Legrand_Etats_Financiers_Consolides_2022_1676536237.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2022/3m/Legrand_Etats_Financiers_Consolides_31_mars_2022_1651668773.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2022/6m/Legrand_Rapport_Financier_%20Semestriel_%202022_FR_1659020277.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2022/9m/Legrand_Comptes_Consolides_Q32022_FR_1667397187.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2023/1Y/LEGRAND_Etats_Financiers_Consolides_2023_FR_1707921573.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2023/3m/Legrand_Etats_Financiers_Consolides_31_mars_2023_1683193439.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2023/6m/Legrand_Rapport_financier_semestriel_2023_FR_1690560762.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2023/9m/Legrand_Comptes_consolides_Q32023_FR_v2_1699352125.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2024/1Y/LEGRAND_SA_YE24_COMPTES_CONSOLIDES_1741362835.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2024/3m/Comptes_consolide%CC%81s_T12024_1714658966.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2024/6m/Legrand_Rapport_financier_semestriel_2024-FR_1722353472.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2024/9m/Legrand_Comptes_Consolides_Q32024_FR_1730891312.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2025/1Y/Legrand_Etats_Financiers_Consolides_2025_1771346481.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Annuels"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2025/3m/Legrand_Comptes_Consolides_Q12025_FR_1746533891.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2025/9m/Legrand_Comptes_Consolides_Q32025_FR_1762350197.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Neuf premiers mois"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2026/3m/Legrand_Comptes_Consolides_Q12026_FR_1778074217.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier trimestre"
+   },
+   "https://www.legrand.com/sites/default/files/Documents_PDF_Legrand/Finance/2026/6m/Legrand_Rapport_financier_semestriel_2026-FR%20V2_1785412248.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   },
+   "https://www.legrandgroup.com/sites/default/files/Documents_PDF_Legrand/Finance/2025/6m/Legrand_Rapport_financier_%20semestriel_2025_FR_1753889291.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Premier semestre"
+   }
+  }
+ },
+ "rexel": {
+  "baseline_done": true,
+  "count": 7,
+  "healthy": true,
+  "last_ok": "2026-10-27T12:13:21.907629+00:00",
+  "seen": {
+   "https://www.rexel.com/app/uploads/2026/03/Rexel-First-quarter-2026-sales.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Présentation – Ventes du T1 2026 (en anglais)"
+   },
+   "https://www.rexel.com/app/uploads/2026/04/CP-Ventes-du-T1-2026.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Communiqué de presse – Ventes du T1 2026"
+   },
+   "https://www.rexel.com/app/uploads/2026/05/CP-Ventes-du-T2-2026-et-resultats-S1-2026-.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Communiqué de presse – Ventes du T2 2026 et résultats S1 2026"
+   },
+   "https://www.rexel.com/app/uploads/2026/05/Rexel-Second-quarter-sales-H1-2026-results.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Présentation – Ventes du T2 2026 et résultats S1 2026 (en anglais)"
+   },
+   "https://www.rexel.com/app/uploads/2026/07/Rexel-Etats-Financiers-2026-06-def.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Rapport financier – 1er semestre 2026"
+   },
+   "https://www.rexel.com/app/uploads/2026/09/CP-Ventes-du-T3-2026.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Communiqué de presse – Ventes du T3 2026"
+   },
+   "https://www.rexel.com/app/uploads/2026/09/Presentation-Q3-2026-sales.pdf": {
+    "first_seen": "2026-10-27T12:13:21.907629+00:00",
+    "label": "Présentation – Ventes du T3 2026 (en anglais)"
+   }
+  }
+ },
+ "schneider": {
+  "baseline_done": false,
+  "healthy": false,
+  "last_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.se.com/ww/fr/about-us/investor-relations/financial-results/",
+  "seen": {}
+ },
+ "vinci": {
+  "baseline_done": false,
+  "healthy": false,
+  "last_error": "HTTPError: 418 Client Error: I'm a teapot for url: https://www.vinci.com/finances/investisseurs/historique-resultats",
+  "seen": {}
+ }
+}
