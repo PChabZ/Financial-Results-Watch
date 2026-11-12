@@ -3,7 +3,7 @@
   "baseline_done": true,
   "count": 137,
   "healthy": true,
-  "last_ok": "2026-11-12T07:20:20.855963+00:00",
+  "last_ok": "2026-11-12T17:27:50.810098+00:00",
   "seen": {
    "https://www.bilfinger.com/fileadmin/One_Global_Website/Investors/IRgemListe/Hauptversammlung/2024/EN/02_GB_2023_EN.pdf": {
     "first_seen": "2026-10-27T12:14:43.488392+00:00",
@@ -559,7 +559,7 @@
   "baseline_done": true,
   "count": 8,
   "healthy": true,
-  "last_ok": "2026-11-12T07:20:20.855963+00:00",
+  "last_ok": "2026-11-12T17:27:50.810098+00:00",
   "seen": {
    "https://live.euronext.com/fr/listview/company-press-release/003126#nid=12883650": {
     "first_seen": "2026-10-27T12:33:54.693117+00:00",
@@ -599,7 +599,7 @@
   "baseline_done": true,
   "count": 8,
   "healthy": true,
-  "last_ok": "2026-11-12T07:20:20.855963+00:00",
+  "last_ok": "2026-11-12T17:27:50.810098+00:00",
   "seen": {
    "https://www.eiffage.com/files/live/sites/eiffagev2/files/Finance/Informations%20reglementees/Information%20trimestrielles/2026/Communiqu%c3%a9%20Eiffage%20T1%202026.pdf": {
     "first_seen": "2026-10-27T12:13:21.907629+00:00",
@@ -629,6 +629,10 @@
     "first_seen": "2026-10-27T12:13:21.907629+00:00",
     "label": "26.08.2026 Résultats du 1er semestre 2026"
    },
+   "https://www.eiffage.com/files/live/sites/eiffagev2/files/M%c3%a9dias/Communiqu%c3%a9%20de%20presse/2026/cp-eiffage-t3-2026.pdf": {
+    "first_seen": "2026-11-12T17:27:50.810098+00:00",
+    "label": "12.11.2026 Information financière au 30 septembre 2026"
+   },
    "https://www.eiffage.com/files/live/sites/eiffagev2/files/Transition%20%c3%a9cologique/Rapport-climat-Eiffage-2026.pdf": {
     "first_seen": "2026-10-27T12:13:21.907629+00:00",
     "label": "Découvrez le rapport climat 2026"
@@ -639,7 +643,7 @@
   "baseline_done": true,
   "count": 56,
   "healthy": true,
-  "last_ok": "2026-11-12T07:20:20.855963+00:00",
+  "last_ok": "2026-11-12T17:27:50.810098+00:00",
   "seen": {
    "https://grupoelecnor.com/storage/media/files/shares/Gobierno_Corporativo/estatutos-sociales-elecnor-sa-vigenteseng-maquetado-1.pdf": {
     "first_seen": "2026-10-27T12:13:21.907629+00:00",
@@ -871,7 +875,7 @@
   "baseline_done": true,
   "count": 89,
   "healthy": true,
-  "last_ok": "2026-11-12T07:20:20.855963+00:00",
+  "last_ok": "2026-11-12T17:27:50.810098+00:00",
   "seen": {
    "https://www.legrand.com/fr/actualites/publication-des-neuf-premiers-mois-2026": {
     "first_seen": "2026-11-05T07:20:50.403102+00:00",
@@ -1235,7 +1239,7 @@
   "baseline_done": true,
   "count": 7,
   "healthy": true,
-  "last_ok": "2026-11-12T07:20:20.855963+00:00",
+  "last_ok": "2026-11-12T17:27:50.810098+00:00",
   "seen": {
    "https://www.rexel.com/app/uploads/2026/03/Rexel-First-quarter-2026-sales.pdf": {
     "first_seen": "2026-10-27T12:13:21.907629+00:00",
@@ -1271,7 +1275,7 @@
   "baseline_done": true,
   "count": 2,
   "healthy": true,
-  "last_ok": "2026-11-12T07:20:20.855963+00:00",
+  "last_ok": "2026-11-12T17:27:50.810098+00:00",
   "seen": {
    "https://live.euronext.com/fr/listview/company-press-release/003751#nid=12901902": {
     "first_seen": "2026-10-27T12:33:54.693117+00:00",
@@ -1303,7 +1307,7 @@
   "baseline_done": true,
   "count": 188,
   "healthy": true,
-  "last_ok": "2026-11-12T07:20:20.855963+00:00",
+  "last_ok": "2026-11-12T17:27:50.810098+00:00",
   "seen": {
    "https://www.vinci.com/publi/finance/vinci-comptes-consolides-31-12-2012.pdf": {
     "first_seen": "2026-10-27T12:14:43.488392+00:00",
