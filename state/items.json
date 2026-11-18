@@ -1,5 +1,18 @@
 [
  {
+  "body": "<p>Le relevé a échoué (HTTPError: 503 Server Error: Service Unavailable for url: https://www.eiffage.com/finance/resultats). L'historique est conservé ; le suivi reprendra automatiquement.</p>",
+  "date": "2026-11-18T17:32:10.703564+00:00",
+  "guid": "9a8837dde89649fe249433f7782e4899cd96b499",
+  "kind": "alert",
+  "link": "https://www.eiffage.com/finance/resultats",
+  "links": [],
+  "page": "https://www.eiffage.com/finance/resultats",
+  "see_also": null,
+  "site": "Eiffage",
+  "slug": "eiffage",
+  "title": "⚠️ Eiffage : page à vérifier"
+ },
+ {
   "body": "<p>La page est de nouveau lisible.</p>",
   "date": "2026-11-17T17:36:01.346960+00:00",
   "guid": "1074c2a637acf1b00133908dbc433064f833fa1a",
